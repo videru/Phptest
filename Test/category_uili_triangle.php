@@ -1,4 +1,5 @@
-
+<?
+echo'
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="카테고리ulli_triangle.css">
@@ -17,7 +18,7 @@
 		<p>세종실록</p>
 	</div>
 </div>
-
+'
 
 
 
