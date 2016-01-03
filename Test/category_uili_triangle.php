@@ -8,7 +8,9 @@
 	<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js">IE7_PNG_SUFFIX=".png";</script> 
 	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 	<![endif]-->
-	<link rel="stylesheet" type="text/css" href="category_ulli_triangle.css">
+		<link rel="stylesheet" thref="normalize.css">
+	<link rel="stylesheet" href="category_ulli_triangle.css">
+
 </head>
 
 <div id="maincontent">
