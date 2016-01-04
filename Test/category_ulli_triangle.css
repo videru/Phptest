@@ -238,6 +238,11 @@ blockquote, q {
 	background-color:red;
 }
 
+.hoverRemovestyleForA 
+{
+	background-color:blue;/* IE 8을 위함*/
+}
+
 #categorylist ul li:hover a{
 	background-color:red;
 }
