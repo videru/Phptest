@@ -14,18 +14,20 @@
 	var hoveredCategoryBanner=1;
 	var changeCategoryBannerFunction;
 	$(document).ready(function(){
-		$("#categorylist ul").mouseenter(function(){
+		
+		changeCategoryBanner();//자동 전환 시작 
+		
+		$("#categorylist ul li").mouseenter(function(){
 			clearTimeout(changeCategoryBannerFunction);//ul로 마우스가 진입하면 자동 전환 멈춤, 사용자가 이 배너를 관심있어 하는 것이므로
 			clearHoverClass();//기존 적용된 hover 클래스 제거
 		});
 		$("#categorylist ul li").mouseleave(function(){
 			var index = $("#categorylist ul li").index(this);
+
 			hoveredCategoryBanner= index+1;//자동전환은 마지막 누른것 부터 시작
 			changeCategoryBanner();//마우스 나가면 자동 전환 시작
 		});
-		
-		changeCategoryBanner();//자동 전환 시작 
-		
+
 	});
 	
 	function changeCategoryBanner(){//자동 전환 함수
